@@ -1,4 +1,4 @@
-**To-Do List for Project**
+<span style="font-size: 24px;">**To-Do List for Project**</span>
 1. Main Page Setup
  - Initialize project using Vite + React + TypeScript.
  - Create the main layout for the website.
