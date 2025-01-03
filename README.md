@@ -35,14 +35,17 @@
 
 9. Deploy ML model......
 
-10. Production build of Website
+10. Create a Repository in Github
+     - create a repository and upload the src file along with (.gitignore, index.html, package-lock.json, package.json, postcss.config.js, README.md, tailwind.config.js, tsconfig.json, vite.config.ts)
+
+11. Production build of Website
     - In VS code run the command npm run build (Vite requires a production build of the project before deployment)
     - A dist folder will be created containing the optimized static files for the website (contains assets and index.html file)
     - The assests file contain:
        - JavaScript Files: Bundled and minified JavaScript files for the website's functionality.
        - CSS Files: Compiled and optimized CSS files for styling.
 
-11. Publish the Website in the Internet using Netlify
+12. Publish the Website in the Internet using Netlify
     - Create and Netlify account 
     - Upload the dist file from the project folder (https://app.netlify.com/sites/kewlznerd-crop-compability/overview)
     - Get the URL for the Website (https://kewlznerd-crop-compability.netlify.app/)
