@@ -44,8 +44,8 @@
 
 11. Publish the Website in the Internet using Netlify
     - Create and Netlify account 
-    - Upload the dist file from the project folder (https://app.netlify.com/sites/agrigrow-crop-compability/overview)
-    - Get the URL for the Website (https://agrigrow-crop-compability.netlify.app/)
+    - Upload the dist file from the project folder (https://app.netlify.com/sites/kewlznerd-crop-compability/overview)
+    - Get the URL for the Website (https://kewlznerd-crop-compability.netlify.app/)
 
 ### **File directory for the website:**
 /dist
