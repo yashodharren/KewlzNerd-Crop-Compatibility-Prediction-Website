@@ -14,7 +14,7 @@
    - Authentication (Login and Signup pages): LoginForm.tsx, SignUpForm.tsx.
    - Implement one hardcoded user credential within AuthContext.ts (testing user authentication)
 
-5. Firebase Configuration(User Credentials)
+5. Firebase Configuration(Storing User Credentials)
     - Set up Firebase project in firebase.ts.
     - Implement user authentication to retrieve and store user data.
         - Implement AuthContext.ts for authentication state management.
@@ -26,3 +26,6 @@
    - Validate the accuracy of ML using evaluation metrics
 
 7. Deploy ML model......
+
+8. Publish the Website in the Internet
+   - 
