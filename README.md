@@ -1,4 +1,4 @@
-### **To-Do List for Project**(H3)
+### **To-Do List for Project**
 1. Main Page Setup
     - Initialize project using Vite + React + TypeScript.
     - Create the main layout for the website.
@@ -44,7 +44,7 @@
     - Upload the dist file from the project folder
     - Get the URL for the Website (https://agrigrow-crop-compability.netlify.app/)
 
-### **File directory for a website:**(H3)
+### **File directory for a website:**
 /dist
 /node_modules
 /src
