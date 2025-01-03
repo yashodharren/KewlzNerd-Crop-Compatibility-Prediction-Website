@@ -12,7 +12,7 @@
 
 4. User Authentication
    - Authentication (Login and Signup pages): LoginForm.tsx, SignUpForm.tsx.
-   - Implement one hardcoded user credential within AuthContext.ts(testing user authentication)
+   - Implement one hardcoded user credential within AuthContext.ts (testing user authentication)
 
 5. Firebase Configuration(User Credentials)
     - Set up Firebase project in firebase.ts.
