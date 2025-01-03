@@ -30,7 +30,7 @@ export function Header() {
       <nav className="container mx-auto px-4 py-6 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Sprout className="h-8 w-8" />
-          <span className="text-2xl font-bold">AgriGrow</span>
+          <span className="text-2xl font-bold">KewlzNerd</span>
         </div>
         <div className="flex items-center space-x-8">
           <button 
