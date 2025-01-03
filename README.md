@@ -10,7 +10,7 @@
     - Create utility functions:
        - cropPrediction.ts for hardcoded crop compatibility logic.
 
-4. Running the server of Website **AgriGrow**
+4. Running the server of Website **KewlzNerd**
     - Run the command npm install in the terminal (install all the dependancies needed for the website)
     - The dependancies will be installed and be stored in a file node_modules in the folder of the project
     - Run the command npm run dev to lauch the website on a browser via localhost
@@ -20,28 +20,31 @@
    - Implement one hardcoded user credential within AuthContext.ts (testing user authentication)
 
 6. Firebase Configuration(Storing User Credentials)
-    - Set up Firebase project in firebase.ts.
-    - Implement user authentication to retrieve and store user data.
-        - Implement AuthContext.ts for authentication state management.
-        - auth.ts for Firebase authentication.
-        - errorMessage.ts for user-friendly error handling.
+    - Login to firebase using gmail
+    - Create a new project (https://console.firebase.google.com/u/0/project/kewlznerd/overview)
+    - Add an authentication shortcut in the project
+    - Set up Firebase project in firebase.ts using the code given from firebase
+    - Implement user authentication to retrieve and store user data
+        - Implement AuthContext.ts for authentication state management
+        - auth.ts for Firebase authentication
+        - errorMessage.ts for user-friendly error handling
 
-7. Machine Learning
+8. Machine Learning
     - Implement a ML model to train the dataset
     - Validate the accuracy of ML using evaluation metrics
 
-8. Deploy ML model......
+9. Deploy ML model......
 
-9. Production build of Website
+10. Production build of Website
     - In VS code run the command npm run build (Vite requires a production build of the project before deployment)
     - A dist folder will be created containing the optimized static files for the website (contains assets and index.html file)
     - The assests file contain:
        - JavaScript Files: Bundled and minified JavaScript files for the website's functionality.
        - CSS Files: Compiled and optimized CSS files for styling.
 
-10. Publish the Website in the Internet using Netlify
-    - Create and Netlify account
-    - Upload the dist file from the project folder
+11. Publish the Website in the Internet using Netlify
+    - Create and Netlify account 
+    - Upload the dist file from the project folder (https://app.netlify.com/sites/agrigrow-crop-compability/overview)
     - Get the URL for the Website (https://agrigrow-crop-compability.netlify.app/)
 
 ### **File directory for the website:**
