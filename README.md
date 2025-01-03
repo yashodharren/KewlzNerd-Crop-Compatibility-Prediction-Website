@@ -43,3 +43,59 @@
     - Create and Netlify account
     - Upload the dist file from the project folder
     - Get the URL for the Website (https://agrigrow-crop-compability.netlify.app/)
+
+### **File directory for a website:**(H3)
+/dist
+/node_modules
+/src
+│
+├── /component
+│   ├── /auth
+│   │   ├── LoginForm.tsx
+│   │   └── SignUpForm.tsx
+│   │
+│   ├── /layout
+│   │   ├── ProtectedRoute.tsx
+│   │
+│   ├── CropSection.tsx
+│   │   
+│   ├── Dashboard.tsx
+│   │
+│   ├── Footer.tsx
+│   │
+│   ├── Header.tsx
+│   │
+│   ├── Hero.tsx
+│   │
+│   ├── PredictionModel.tsx
+│   │
+│   └── Services.tsx
+│
+├── /config
+│   ├── firebase.ts
+│
+├── /contexts
+│   ├── AuthContext.ts
+│
+├── /utils
+│   ├── auth.ts
+│   ├── cropPrediction.ts
+│   └── errorMessage.ts
+│
+├── /App.tsx
+│   
+├── /index.css   
+│   
+├── /main.tsx  
+│
+├── /vite-env.d.ts
+├── 
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
