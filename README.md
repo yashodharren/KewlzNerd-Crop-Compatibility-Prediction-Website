@@ -1,7 +1,7 @@
 ### **To-Do List for Project**(H3)
 1. Main Page Setup
- - Initialize project using Vite + React + TypeScript.
- - Create the main layout for the website.
+   - Initialize project using Vite + React + TypeScript.
+   - Create the main layout for the website.
 
 2. Components Development
  - Authentication (Login and Signup pages): LoginForm.tsx, SignUpForm.tsx.
