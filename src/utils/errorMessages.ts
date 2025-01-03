@@ -6,8 +6,7 @@ export const getAuthErrorMessage = (code: string): string => {
       return 'Password should be at least 6 characters';
     case 'auth/invalid-email':
       return 'Invalid email address';
-    case 'auth/user-not-found':
-    case 'auth/wrong-password':
+    case 'auth/invalid-credential':
       return 'Invalid email or password';
     default:
       return 'An error occurred. Please try again';
