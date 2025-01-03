@@ -10,7 +10,7 @@
     - Create utility functions:
        - cropPrediction.ts for hardcoded crop compatibility logic.
 
-4. Running the server of Website
+4. Running the server of Website AgriGrow
     - Run the command npm install in the terminal (install all the dependancies needed for the website)
     - The dependancies will be installed and be stored in a file node_modules in the folder of the project
     - Run the command npm run dev to lauch the website on a browser via localhost
@@ -44,7 +44,7 @@
     - Upload the dist file from the project folder
     - Get the URL for the Website (https://agrigrow-crop-compability.netlify.app/)
 
-### **File directory for a website:**
+### **File directory for the website:**
 /dist
 /node_modules
 /src
