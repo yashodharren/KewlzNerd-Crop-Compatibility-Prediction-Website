@@ -26,7 +26,7 @@ export function Header() {
   };
 
   return (
-    <header className="bg-black-700 text-white">
+    <header className="bg-green-400 text-white">
       <nav className="container mx-auto px-4 py-6 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Sprout className="h-8 w-8" />
